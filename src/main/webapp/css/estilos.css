@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One';
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-nav li {
+    list-style: none;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+} 
+
+header {
+    background: linear-gradient(180deg,#C5ADC5, #B2B5E0);
+    height: 50vh;
+    text-align: center;
+}
+
+#menu {
+    background: #FFE6E6;
+}
+
+#menu img {
+    width: 150px;
+    position: relative;
+    top: -50px;
+}
+
+#menu .logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+} 
+
+nav ul li a {
+    color: #D668E3;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    background-color: #F2D4D6; 
+    padding: 5px 10px;
+    border-radius: 4px; 
+}
+
+header .titular {
+    padding-top: 50px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 80%;
+}
+
+#todo {
+    background: #D668E3;
+    color: #fff;
+    padding: 60px 0;
+}
+
+h4 {
+    margin: 0;
+    color: #000;
+    padding: 10px;
+}
+
+#todo .contenedor {
+    display: flex;
+    align-items: center;
+}
+
+#todo p {
+    line-height: 27px;
+    text-align: justify;
+    padding-right: 15px;
+    font-family: 'Jost';
+    font-size: 1.2em;
+}
+
+#todo .texto {
+    width: 60%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#todo .info {
+    width: 30%;
+    margin-left: 10%;
+    border: 2px solid #FFE6E6;
+    padding: 10px;
+    border-top-right-radius: 20px;
+}
+
+footer {
+    background: linear-gradient(180deg,#C5ADC5, #B2B5E0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .social_icon li{ 
+    list-style: none; 
+    display: inline-block; 
+} 
+
+footer .social_icon li img{ 
+    height: 2em;
+    width: 2em;
+    color: #fff;
+    filter: invert(100%);  
+    transition: 0.5s;
+    margin: 0 10px;
+} 
+
+footer .social_icon li img:hover{ 
+    transform: translateY(-10px);
+} 
+
+footer p{
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Jost';
+    font-size: 1.2em;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    /*font-weight: 600;*/
+    color: #fff;
+    margin-bottom: 25px;
+}

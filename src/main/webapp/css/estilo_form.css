@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+#todo .texto label{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-family: 'Jost';
+    font-size: 1.2em;
+}
+::placeholder{
+    font-family: 1.2rem;
+    color: rgba(255, 255, 255, .596);
+}
+
+#todo .texto input,select{
+    display: block;
+    width: 75%;
+    height: 40px;
+    padding-left: 10px;
+    color: black;
+    border: 2px solid #fff;
+    font-family: 'Jost';
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+#todo .texto input:hover{
+    transition: 5s;
+    border: 2px solid #FFE6E6;
+}
+
+#todo .button{
+    text-align: center;
+    padding: 10px;
+}
+
+#todo .button input{  
+    display: inline-block;
+    height: 40px;
+    width: 45%;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(130deg,#F2D4D6,#C5ADC5);
+    color: #fff;
+    font-family: 'Jost';
+    font-size: 1.2em;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    align-items: center;
+    margin: 5px;
+}
+
+#todo .button input:hover{
+    background: linear-gradient(130deg,#C5ADC5,#F2D4D6);
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 1.2em;
+    margin-top: 20px; 
+}
+
